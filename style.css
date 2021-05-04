@@ -29,14 +29,14 @@ header img {
 header nav {
     float: right;
     width: 70%;
-    margin: 10px;
+    margin: 0px;
    
 }
 
 header nav ul li {
     width: 20%;
     display: inline-block;
-    margin: 65px 0 ;
+    margin: 75px 0 ;
 }
 
 
@@ -101,12 +101,13 @@ main div section h2  {
 }
 
 main div section p {
-  margin-bottom: 15px;
- height: 630px;
-  overflow: scroll;
-  line-height: 1.5;
-  font-size: 20px;
-  text-align: justify;
+margin-bottom: 15px;
+padding: 10px;
+height: 630px;
+overflow: scroll;
+line-height: 1.5;
+font-size: 20px;
+text-align: justify;
 }
 
 
