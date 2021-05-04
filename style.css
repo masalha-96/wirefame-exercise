@@ -1,0 +1,129 @@
+* {
+    font-family: Cinzel;
+}
+main{
+   padding: 0 80px;
+}
+
+body{
+    background-color:#E0D7AD;
+}
+
+footer {
+    clear: both;
+    height: 200px;
+    background-color: #BAB28F;
+    
+}
+header {
+    background-color: #BAB28F;
+    width: 100%;
+    
+}
+
+header img {
+    margin: 15px 80px ;
+    width: 20%;
+}
+
+header nav {
+    float: right;
+    width: 70%;
+    margin: 10px;
+   
+}
+
+header nav ul li {
+    width: 20%;
+    display: inline-block;
+    margin: 65px 0 ;
+}
+
+
+header nav ul li a {
+    font-family: Cinzel;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+/* image style  */
+
+#firstchild {
+    width: 100%;
+     padding: 30px 0 ; */
+     /* padding: 15px; */
+}
+
+main section  {
+     width: 100%;
+     margin-bottom: 30px;
+}
+main section img {
+    width: 32%;
+    margin-right: 30px; 
+}
+
+main section img:last-child {
+    width: 32%;
+    margin-right:0px;
+}
+
+/* new section */
+
+main div  {
+width: 100%;
+margin-bottom: 30px;
+background-color: red;
+}
+
+main div img  {
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+    
+    }
+
+main div section  {
+margin-left: 15px;
+padding:0 30px;
+width: 45%;
+float: right;
+    
+}
+
+main div section h2  {
+   margin-bottom: 30px;
+   font-size: 25px;
+    font-weight: bolder;
+    text-align: justify;
+}
+
+main div section p {
+  margin-bottom: 15px;
+ height: 630px;
+  overflow: scroll;
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: justify;
+}
+
+
+
+div section a {
+    display: inline-block;
+    margin-bottom: 33px;
+    padding: 5px 40px;
+    font-size: 20px;
+    text-decoration : none;
+    color: white;
+    background-color: black;
+    border: 1px black solid;
+    border-radius: 10px;
+    transition: background-color .35s;
+}
+div section a:hover {
+    background-color: gold;
+  }
+
